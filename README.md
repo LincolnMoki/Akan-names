@@ -5,7 +5,7 @@
 - RonnyLincoln.
 
 ## link to live site
-https://ronnylincoln.github.io/
+https://ronnylincoln.github.io/Akan-names/
 
 
 ### Description
