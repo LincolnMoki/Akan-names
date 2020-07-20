@@ -5,6 +5,7 @@
 - RonnyLincoln.
 
 ## link to live site
+https://ronnylincoln.github.io/
 
 
 ### Description
@@ -40,3 +41,5 @@ This website-project contains a form that facilitates one to get or know their a
 - mwithiamoki@gmail.com
 
 # License
+MIT License
+Copyright (c) 2020 RonnyLincoln
