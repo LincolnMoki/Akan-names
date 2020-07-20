@@ -15,3 +15,8 @@ p#form{
     font-weight: bold;
     text-emphasis-color:black;
 }
+.label{
+
+    position: absolute;
+    left: 20px;
+}
