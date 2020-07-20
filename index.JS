@@ -1,5 +1,5 @@
 function getInput() {
-    var century, year, month, date;  
+    var  year, month, date;  
     year = parseInt(document.getElementById("year").value);
     month = parseInt(document.getElementById("month").value);
     date = parseInt(document.getElementById("date").value);
@@ -11,9 +11,8 @@ function getInput() {
     var femaleNames = [
         "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama",];
 
-    var day = parseInt(((century/ 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + date) % 7;
-    day = Math.round(day);
-
+    var day = parseInt(((5 * year / 4)) + ((26 * (month + 1) / 10)) + date) % 7;
+     day = Math.round(day);
 
     if (month < 1 || month > 12 || month == 2 && date > 29) {
         alert("INVALID MONTH!!!");
