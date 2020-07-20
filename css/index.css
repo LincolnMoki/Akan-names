@@ -20,3 +20,10 @@ p#form{
     position: absolute;
     left: 20px;
 }
+
+
+@media screen and (min-width: 480px) and (max-width: 1646px){
+    .jumbotron{
+        color: black;
+    }
+}
